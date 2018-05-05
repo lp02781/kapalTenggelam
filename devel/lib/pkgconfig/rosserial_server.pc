@@ -1,0 +1,8 @@
+prefix=/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.7.7
+Cflags: -I/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/rosserial/rosserial_server/include
+Libs: -L/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib 
+Requires: roscpp rosserial_msgs std_msgs topic_tools

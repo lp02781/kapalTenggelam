@@ -1,0 +1,5 @@
+<launch>
+	<node name="videoFront" pkg="groundserver" output="screen" type="videoFront" />
+	<node name="pixhawkCustom" pkg="groundserver" output="screen" type="pixhawkCustom" />
+	<node name="modePixhawk" pkg="groundserver" output="screen" type="modePixhawk" />	
+</launch>

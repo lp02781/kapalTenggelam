@@ -1,0 +1,8 @@
+prefix=/home/mfikih15/Documents/kapalTenggelam/serverGabut/install
+
+Name: rosserial_tivac
+Description: Description of rosserial_tivac
+Version: 0.7.7
+Cflags: 
+Libs: -L/home/mfikih15/Documents/kapalTenggelam/serverGabut/install/lib 
+Requires: 

@@ -1,0 +1,12 @@
+<launch>
+	<node name="controlDirect" pkg="groundserver" output="screen" type="controlDirect" />
+	<node name="videoFront" pkg="groundserver" output="screen" type="videoFront" />
+	<node name="modePixhawk" pkg="groundserver" output="screen" type="modePixhawk" />		
+	
+	<node name="imageGround" pkg="groundserver" output="screen" type="imageGround" />
+	<node name="identificationPlane" pkg="groundserver" output="screen" type="identificationPlane" />
+	<node respawn="true" pkg="joy" type="joy_node" name="turtle_joy" >
+		<param name="dev" type="string" value="/dev/input/js0" />
+		<param name="deadzone" value="0.12" />
+	</node>
+</launch>

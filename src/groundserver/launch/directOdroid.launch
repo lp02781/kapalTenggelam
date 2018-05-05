@@ -1,0 +1,5 @@
+<launch>
+	<node name="controlDirect" pkg="groundserver" output="screen" type="controlDirect" />
+	<node name="videoFront" pkg="groundserver" output="screen" type="videoFront" />
+	<node name="modePixhawk" pkg="groundserver" output="screen" type="modePixhawk" />		
+</launch>
