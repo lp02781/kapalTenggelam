@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/src
+CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/build
+CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/build
 
 # Utility rule file for uuid_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build: uuid_msgs_ge
 .PHONY : groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
 
 groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/clean:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/uuid_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/uuid_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/clean
 
 groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/depend:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/serverGabut/src /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mfikih15/Documents/kapalTenggelam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/src /home/mfikih15/Documents/kapalTenggelam/src/groundserver /home/mfikih15/Documents/kapalTenggelam/build /home/mfikih15/Documents/kapalTenggelam/build/groundserver /home/mfikih15/Documents/kapalTenggelam/build/groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : groundserver/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/depend
 

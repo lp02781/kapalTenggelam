@@ -1,8 +1,0 @@
-prefix=/home/mfikih15/Documents/kapalTenggelam/serverGabut/install
-
-Name: rosserial_msgs
-Description: Description of rosserial_msgs
-Version: 0.7.7
-Cflags: -I/home/mfikih15/Documents/kapalTenggelam/serverGabut/install/include
-Libs: -L/home/mfikih15/Documents/kapalTenggelam/serverGabut/install/lib 
-Requires: message_runtime

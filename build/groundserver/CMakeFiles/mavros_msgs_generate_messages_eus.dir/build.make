@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/src
+CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/build
+CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/build
 
 # Utility rule file for mavros_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build: mavros_msgs
 .PHONY : groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
 
 groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/clean:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/mavros_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/mavros_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/clean
 
 groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/depend:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/serverGabut/src /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mfikih15/Documents/kapalTenggelam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/src /home/mfikih15/Documents/kapalTenggelam/src/groundserver /home/mfikih15/Documents/kapalTenggelam/build /home/mfikih15/Documents/kapalTenggelam/build/groundserver /home/mfikih15/Documents/kapalTenggelam/build/groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : groundserver/CMakeFiles/mavros_msgs_generate_messages_eus.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/include/groundserver/statusSub.h
+/home/mfikih15/Documents/kapalTenggelam/devel/include/groundserver/statusSub.h
 string
 -
 vector
@@ -22,19 +22,19 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/modePixhawk.cpp
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/modePixhawk.cpp
 ros/ros.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/ros/ros.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/ros/ros.h
 mavros_msgs/SetMode.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/mavros_msgs/SetMode.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/mavros_msgs/SetMode.h
 mavros_msgs/State.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/mavros_msgs/State.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/mavros_msgs/State.h
 iostream
 -
 stdio.h
 -
 groundserver/statusSub.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/groundserver/statusSub.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/groundserver/statusSub.h
 
 /opt/ros/kinetic/include/mavros_msgs/SetMode.h
 ros/service_traits.h

@@ -23,11 +23,29 @@ int main(int argc, char** argv){
 	ros::Subscriber sub_rov_remote 	= n.subscribe<groundserver::statusSub>("/rov/mode/status", 1, statusCallback);
 	ros::ServiceClient client 		= n.serviceClient<mavros_msgs::SetMode>("/mavros/set_mode");
 
+	system("rosrun mavros mavsafety arm");
+	system("rosrun mavros mavsafety arm");
+	system("rosrun mavros mavsafety arm");
+	
+	flight.request.base_mode = 0;
+	//flight.request.custom_mode = "STABILIZE";
+	flight.request.custom_mode = "MANUAL";
+	client.call(flight);
+			
+	pub_state_armed.publish(armedRov);
+	
+	flight.request.base_mode = 0;
+	//flight.request.custom_mode = "STABILIZE";
+	flight.request.custom_mode = "MANUAL";
+	client.call(flight);
+	
+	pub_state_armed.publish(armedRov);
+							
 	while( ros::ok() ){	
 		ros::spinOnce();
 		
 		if (rovArmed = true){
-			system("rosrun mavros mavsafety arm");
+			//system("rosrun mavros mavsafety arm");
 			//sleep(10);
 			//ROS_INFO("true");
 			//flight.request.base_mode = 0;
@@ -66,15 +84,15 @@ int main(int argc, char** argv){
 			
 			//flight.request.base_mode = 192;
 			//ROS_INFO("ya");
-			flight.request.base_mode = 0;
+			//flight.request.base_mode = 0;
 			//flight.request.custom_mode = "STABILIZE";
-			flight.request.custom_mode = "MANUAL";
-			client.call(flight);
+			//flight.request.custom_mode = "MANUAL";
+			//client.call(flight);
 		}
 		
 		//cout<<rovMode<<"\t"<<rovArmed<<endl;
 		
-		pub_state_armed.publish(armedRov);
+		//pub_state_armed.publish(armedRov);
 	}
 }
 

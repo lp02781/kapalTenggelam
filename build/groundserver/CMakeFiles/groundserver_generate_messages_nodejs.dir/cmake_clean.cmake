@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/groundserver_generate_messages_nodejs"
-  "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/share/gennodejs/ros/groundserver/msg/statusSub.js"
-  "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/share/gennodejs/ros/groundserver/msg/inputRemote.js"
+  "/home/mfikih15/Documents/kapalTenggelam/devel/share/gennodejs/ros/groundserver/msg/statusSub.js"
+  "/home/mfikih15/Documents/kapalTenggelam/devel/share/gennodejs/ros/groundserver/msg/inputRemote.js"
 )
 
 # Per-language clean rules from dependency scanning.

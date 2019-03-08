@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/src
+CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/build
+CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/build
 
 # Utility rule file for groundserver_geneus.
 
@@ -63,10 +63,10 @@ groundserver/CMakeFiles/groundserver_geneus.dir/build: groundserver_geneus
 .PHONY : groundserver/CMakeFiles/groundserver_geneus.dir/build
 
 groundserver/CMakeFiles/groundserver_geneus.dir/clean:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/groundserver_geneus.dir/cmake_clean.cmake
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/groundserver_geneus.dir/cmake_clean.cmake
 .PHONY : groundserver/CMakeFiles/groundserver_geneus.dir/clean
 
 groundserver/CMakeFiles/groundserver_geneus.dir/depend:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/serverGabut/src /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/CMakeFiles/groundserver_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mfikih15/Documents/kapalTenggelam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/src /home/mfikih15/Documents/kapalTenggelam/src/groundserver /home/mfikih15/Documents/kapalTenggelam/build /home/mfikih15/Documents/kapalTenggelam/build/groundserver /home/mfikih15/Documents/kapalTenggelam/build/groundserver/CMakeFiles/groundserver_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : groundserver/CMakeFiles/groundserver_geneus.dir/depend
 

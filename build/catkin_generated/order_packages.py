@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = "/home/mfikih15/Documents/kapalTenggelam/serverGabut/src"
+source_root_dir = "/home/mfikih15/Documents/kapalTenggelam/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/mfikih15/Documents/wsReference/devel;/home/mfikih15/Documents/vtol/devel;/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel;/home/mfikih15/Documents/joystick/devel;/home/mfikih15/Documents/pkm/devel;/opt/ros/kinetic".split(';') if "/home/mfikih15/Documents/wsReference/devel;/home/mfikih15/Documents/vtol/devel;/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel;/home/mfikih15/Documents/joystick/devel;/home/mfikih15/Documents/pkm/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/mfikih15/Documents/auvsi16/devel;/opt/ros/kinetic".split(';') if "/home/mfikih15/Documents/auvsi16/devel;/opt/ros/kinetic" != "" else []

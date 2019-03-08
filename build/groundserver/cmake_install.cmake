@@ -1,8 +1,8 @@
-# Install script for directory: /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver
+# Install script for directory: /home/mfikih15/Documents/kapalTenggelam/src/groundserver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mfikih15/Documents/kapalTenggelam/serverGabut/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mfikih15/Documents/kapalTenggelam/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,59 +34,59 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver/msg" TYPE FILE FILES
-    "/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg/inputRemote.msg"
-    "/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg/statusSub.msg"
+    "/home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg/inputRemote.msg"
+    "/home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg/statusSub.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver/cmake" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/catkin_generated/installspace/groundserver-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver/cmake" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/build/groundserver/catkin_generated/installspace/groundserver-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/include/groundserver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/devel/include/groundserver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/share/roseus/ros/groundserver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/devel/share/roseus/ros/groundserver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/share/common-lisp/ros/groundserver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/devel/share/common-lisp/ros/groundserver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/share/gennodejs/ros/groundserver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/devel/share/gennodejs/ros/groundserver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/catkin_generated/installspace/groundserver.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/build/groundserver/catkin_generated/installspace/groundserver.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver/cmake" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/catkin_generated/installspace/groundserver-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver/cmake" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/build/groundserver/catkin_generated/installspace/groundserver-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver/cmake" TYPE FILE FILES
-    "/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/catkin_generated/installspace/groundserverConfig.cmake"
-    "/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/catkin_generated/installspace/groundserverConfig-version.cmake"
+    "/home/mfikih15/Documents/kapalTenggelam/build/groundserver/catkin_generated/installspace/groundserverConfig.cmake"
+    "/home/mfikih15/Documents/kapalTenggelam/build/groundserver/catkin_generated/installspace/groundserverConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/groundserver" TYPE FILE FILES "/home/mfikih15/Documents/kapalTenggelam/src/groundserver/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/groundserver" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/include/groundserver/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/groundserver" TYPE DIRECTORY FILES "/home/mfikih15/Documents/kapalTenggelam/src/groundserver/include/groundserver/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

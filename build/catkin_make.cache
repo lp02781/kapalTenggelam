@@ -1,2 +1,2 @@
-groundserver:rosserial/rosserial:rosserial/rosserial_arduino:rosserial/rosserial_client:rosserial/rosserial_embeddedlinux:rosserial/rosserial_mbed:rosserial/rosserial_msgs:rosserial/rosserial_python:rosserial/rosserial_server:rosserial/rosserial_test:rosserial/rosserial_tivac:rosserial/rosserial_windows:rosserial/rosserial_xbee
--DCATKIN_DEVEL_PREFIX=/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel -DCMAKE_INSTALL_PREFIX=/home/mfikih15/Documents/kapalTenggelam/serverGabut/install -G Unix Makefiles
+groundserver
+-DCATKIN_DEVEL_PREFIX=/home/mfikih15/Documents/kapalTenggelam/devel -DCMAKE_INSTALL_PREFIX=/home/mfikih15/Documents/kapalTenggelam/install -G Unix Makefiles

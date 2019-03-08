@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/include/groundserver/statusSub.h
+/home/mfikih15/Documents/kapalTenggelam/devel/include/groundserver/statusSub.h
 string
 -
 vector
@@ -22,17 +22,17 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/controlDirect.cpp
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/controlDirect.cpp
 ros/ros.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/ros/ros.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/ros/ros.h
 mavros_msgs/OverrideRCIn.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/mavros_msgs/OverrideRCIn.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/mavros_msgs/OverrideRCIn.h
 iostream
 -
 stdio.h
 -
 groundserver/statusSub.h
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/groundserver/statusSub.h
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/groundserver/statusSub.h
 sensor_msgs/Joy.h
 -
 

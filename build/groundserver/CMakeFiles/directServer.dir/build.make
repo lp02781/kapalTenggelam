@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/src
+CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/build
+CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/build
 
 # Include any dependencies generated for this target.
 include groundserver/CMakeFiles/directServer.dir/depend.make
@@ -58,17 +58,17 @@ include groundserver/CMakeFiles/directServer.dir/progress.make
 include groundserver/CMakeFiles/directServer.dir/flags.make
 
 groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o: groundserver/CMakeFiles/directServer.dir/flags.make
-groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o: /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/directServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/directServer.dir/src/directServer.cpp.o -c /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/directServer.cpp
+groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o: /home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/directServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mfikih15/Documents/kapalTenggelam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o"
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/directServer.dir/src/directServer.cpp.o -c /home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/directServer.cpp
 
 groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/directServer.dir/src/directServer.cpp.i"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/directServer.cpp > CMakeFiles/directServer.dir/src/directServer.cpp.i
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/directServer.cpp > CMakeFiles/directServer.dir/src/directServer.cpp.i
 
 groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/directServer.dir/src/directServer.cpp.s"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/directServer.cpp -o CMakeFiles/directServer.dir/src/directServer.cpp.s
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/directServer.cpp -o CMakeFiles/directServer.dir/src/directServer.cpp.s
 
 groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o.requires:
 
@@ -88,48 +88,48 @@ directServer_OBJECTS = \
 # External object files for target directServer
 directServer_EXTERNAL_OBJECTS =
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: groundserver/CMakeFiles/directServer.dir/build.make
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libopencv_core3.so.3.3.1
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.3.1
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.3.1
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libimage_transport.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libclass_loader.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/libPocoFoundation.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libroslib.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librospack.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libroscpp.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librosconsole.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librostime.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libcpp_common.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer: groundserver/CMakeFiles/directServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/directServer.dir/link.txt --verbose=$(VERBOSE)
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: groundserver/CMakeFiles/directServer.dir/src/directServer.cpp.o
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: groundserver/CMakeFiles/directServer.dir/build.make
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libimage_transport.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libclass_loader.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/libPocoFoundation.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libroslib.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librospack.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libroscpp.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librosconsole.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/librostime.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /opt/ros/kinetic/lib/libcpp_common.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer: groundserver/CMakeFiles/directServer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer"
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/directServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-groundserver/CMakeFiles/directServer.dir/build: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/groundserver/directServer
+groundserver/CMakeFiles/directServer.dir/build: /home/mfikih15/Documents/kapalTenggelam/devel/lib/groundserver/directServer
 
 .PHONY : groundserver/CMakeFiles/directServer.dir/build
 
@@ -138,10 +138,10 @@ groundserver/CMakeFiles/directServer.dir/requires: groundserver/CMakeFiles/direc
 .PHONY : groundserver/CMakeFiles/directServer.dir/requires
 
 groundserver/CMakeFiles/directServer.dir/clean:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/directServer.dir/cmake_clean.cmake
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/directServer.dir/cmake_clean.cmake
 .PHONY : groundserver/CMakeFiles/directServer.dir/clean
 
 groundserver/CMakeFiles/directServer.dir/depend:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/serverGabut/src /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/CMakeFiles/directServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mfikih15/Documents/kapalTenggelam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/src /home/mfikih15/Documents/kapalTenggelam/src/groundserver /home/mfikih15/Documents/kapalTenggelam/build /home/mfikih15/Documents/kapalTenggelam/build/groundserver /home/mfikih15/Documents/kapalTenggelam/build/groundserver/CMakeFiles/directServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : groundserver/CMakeFiles/directServer.dir/depend
 

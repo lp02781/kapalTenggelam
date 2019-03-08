@@ -1,8 +1,0 @@
-prefix=/home/mfikih15/Documents/kapalTenggelam/serverGabut/install
-
-Name: krti16
-Description: Description of krti16
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mfikih15/Documents/kapalTenggelam/serverGabut/install/lib 
-Requires: 

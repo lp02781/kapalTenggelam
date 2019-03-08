@@ -43,41 +43,41 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/src
+CMAKE_SOURCE_DIR = /home/mfikih15/Documents/kapalTenggelam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/serverGabut/build
+CMAKE_BINARY_DIR = /home/mfikih15/Documents/kapalTenggelam/build
 
 # Utility rule file for groundserver_generate_messages_py.
 
 # Include the progress variables for this target.
 include groundserver/CMakeFiles/groundserver_generate_messages_py.dir/progress.make
 
-groundserver/CMakeFiles/groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py
-groundserver/CMakeFiles/groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py
-groundserver/CMakeFiles/groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py
+groundserver/CMakeFiles/groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py
+groundserver/CMakeFiles/groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py
+groundserver/CMakeFiles/groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py
 
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg/statusSub.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG groundserver/statusSub"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg/statusSub.msg -Igroundserver:/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg -Imavros_msgs:/opt/ros/kinetic/share/mavros_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Igeographic_msgs:/opt/ros/kinetic/share/geographic_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/kinetic/share/uuid_msgs/cmake/../msg -p groundserver -o /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py: /home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg/statusSub.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG groundserver/statusSub"
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg/statusSub.msg -Igroundserver:/home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg -Imavros_msgs:/opt/ros/kinetic/share/mavros_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Igeographic_msgs:/opt/ros/kinetic/share/geographic_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/kinetic/share/uuid_msgs/cmake/../msg -p groundserver -o /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg/inputRemote.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG groundserver/inputRemote"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg/inputRemote.msg -Igroundserver:/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/msg -Imavros_msgs:/opt/ros/kinetic/share/mavros_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Igeographic_msgs:/opt/ros/kinetic/share/geographic_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/kinetic/share/uuid_msgs/cmake/../msg -p groundserver -o /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py: /home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg/inputRemote.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG groundserver/inputRemote"
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg/inputRemote.msg -Igroundserver:/home/mfikih15/Documents/kapalTenggelam/src/groundserver/msg -Imavros_msgs:/opt/ros/kinetic/share/mavros_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Igeographic_msgs:/opt/ros/kinetic/share/geographic_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/kinetic/share/uuid_msgs/cmake/../msg -p groundserver -o /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/serverGabut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for groundserver"
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg --initpy
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py
+/home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mfikih15/Documents/kapalTenggelam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for groundserver"
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg --initpy
 
 groundserver_generate_messages_py: groundserver/CMakeFiles/groundserver_generate_messages_py
-groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py
-groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py
-groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/serverGabut/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py
+groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_statusSub.py
+groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/_inputRemote.py
+groundserver_generate_messages_py: /home/mfikih15/Documents/kapalTenggelam/devel/lib/python2.7/dist-packages/groundserver/msg/__init__.py
 groundserver_generate_messages_py: groundserver/CMakeFiles/groundserver_generate_messages_py.dir/build.make
 
 .PHONY : groundserver_generate_messages_py
@@ -88,10 +88,10 @@ groundserver/CMakeFiles/groundserver_generate_messages_py.dir/build: groundserve
 .PHONY : groundserver/CMakeFiles/groundserver_generate_messages_py.dir/build
 
 groundserver/CMakeFiles/groundserver_generate_messages_py.dir/clean:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/groundserver_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/mfikih15/Documents/kapalTenggelam/build/groundserver && $(CMAKE_COMMAND) -P CMakeFiles/groundserver_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : groundserver/CMakeFiles/groundserver_generate_messages_py.dir/clean
 
 groundserver/CMakeFiles/groundserver_generate_messages_py.dir/depend:
-	cd /home/mfikih15/Documents/kapalTenggelam/serverGabut/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/serverGabut/src /home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver /home/mfikih15/Documents/kapalTenggelam/serverGabut/build/groundserver/CMakeFiles/groundserver_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mfikih15/Documents/kapalTenggelam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mfikih15/Documents/kapalTenggelam/src /home/mfikih15/Documents/kapalTenggelam/src/groundserver /home/mfikih15/Documents/kapalTenggelam/build /home/mfikih15/Documents/kapalTenggelam/build/groundserver /home/mfikih15/Documents/kapalTenggelam/build/groundserver/CMakeFiles/groundserver_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : groundserver/CMakeFiles/groundserver_generate_messages_py.dir/depend
 

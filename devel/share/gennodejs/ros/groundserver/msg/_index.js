@@ -2,15 +2,15 @@
 "use strict";
 
 let inputRemote = require('./inputRemote.js');
-let statusSub = require('./statusSub.js');
-let arduinoInput = require('./arduinoInput.js');
 let extArdu = require('./extArdu.js');
+let arduinoInput = require('./arduinoInput.js');
 let usbIp = require('./usbIp.js');
+let statusSub = require('./statusSub.js');
 
 module.exports = {
   inputRemote: inputRemote,
-  statusSub: statusSub,
-  arduinoInput: arduinoInput,
   extArdu: extArdu,
+  arduinoInput: arduinoInput,
   usbIp: usbIp,
+  statusSub: statusSub,
 };

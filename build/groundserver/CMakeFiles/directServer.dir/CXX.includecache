@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mfikih15/Documents/kapalTenggelam/serverGabut/src/groundserver/src/directServer.cpp
+/home/mfikih15/Documents/kapalTenggelam/src/groundserver/src/directServer.cpp
 ros/ros.h
 -
 sensor_msgs/Joy.h

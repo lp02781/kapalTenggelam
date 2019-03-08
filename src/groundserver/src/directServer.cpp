@@ -46,9 +46,9 @@ void joyCallback(const sensor_msgs::Joy::ConstPtr& joy)	{
 
 
 void checkController(){	
-	cout<<"++++++++yaw :"<<remoteYaw<<"\t"<<"throttle :"<<remoteThrottle<<"\t"<<"pitch :"<<remotePitch<<"\t"<<"roll :"<<remoteRoll<<endl;
-	cout<<"++++++++armGripOn :"<<remoteArmGripOn<<"\t"<<"armGripOff :"<<remoteArmGripOff<<"\t"<<"armedOn :"<<remoteArmed<<endl;
-	cout<<"++++++++stabilizeMode :"<<remoteStabilizeMode<<endl;
+	cout<<a<<"\t"<<b<<"\t"<<c<<"\t"<<d<<"\t"<<e<<"\t"<<f<<endl;
+	cout<<g<<"\t"<<h<<"\t"<<i<<"\t"<<j<<"\t"<<k<<"\t"<<l<<endl;
+	cout<<m<<"\t"<<n<<endl;
 	cout<<endl<<endl<<endl;
 }
 

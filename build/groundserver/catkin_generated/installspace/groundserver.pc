@@ -1,8 +1,8 @@
-prefix=/home/mfikih15/Documents/kapalTenggelam/serverGabut/install
+prefix=/home/mfikih15/Documents/kapalTenggelam/install
 
 Name: groundserver
 Description: Description of groundserver
 Version: 0.0.0
-Cflags: -I/home/mfikih15/Documents/kapalTenggelam/serverGabut/install/include
-Libs: -L/home/mfikih15/Documents/kapalTenggelam/serverGabut/install/lib 
+Cflags: -I/home/mfikih15/Documents/kapalTenggelam/install/include
+Libs: -L/home/mfikih15/Documents/kapalTenggelam/install/lib 
 Requires: message_runtime
